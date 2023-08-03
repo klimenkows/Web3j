@@ -38,3 +38,5 @@ slf4jVersion = '1.7.30'
 description 'Web3j base project.'
 
 [
+  'jacoco',
+    'java',
