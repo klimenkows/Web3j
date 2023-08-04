@@ -40,3 +40,4 @@ description 'Web3j base project.'
 [
   'jacoco',
     'java',
+ 'javadoc',
