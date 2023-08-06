@@ -43,3 +43,5 @@ description 'Web3j base project.'
  'javadoc',
 'publish',
     'repositories',
+'spotless'
+].each { buildScript ->
