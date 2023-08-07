@@ -45,3 +45,5 @@ description 'Web3j base project.'
     'repositories',
 'spotless'
 ].each { buildScript ->
+ download {
+        src "https://raw.githubusercontent.com/web3j/build-tools/master/gradle/$buildScript/build.gradle"
