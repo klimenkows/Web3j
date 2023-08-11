@@ -52,3 +52,6 @@ description 'Web3j base project.'
  quiet true
         onlyIfModified true
     }
+}
+
+allprojects {
