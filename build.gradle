@@ -55,3 +55,6 @@ description 'Web3j base project.'
 }
 
 allprojects {
+   apply {
+        [
+            'java',
