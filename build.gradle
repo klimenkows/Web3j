@@ -58,3 +58,4 @@ allprojects {
    apply {
         [
             'java',
+ 'javadoc',
