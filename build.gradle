@@ -59,3 +59,4 @@ allprojects {
         [
             'java',
  'javadoc',
+  'repositories',
