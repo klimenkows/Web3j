@@ -62,3 +62,6 @@ allprojects {
   'repositories',
  'spotless'
         ].each { buildScript ->
+   from("$rootDir/gradle/$buildScript/build.gradle")
+        }
+    }
