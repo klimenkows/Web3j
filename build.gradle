@@ -65,3 +65,7 @@ allprojects {
    from("$rootDir/gradle/$buildScript/build.gradle")
         }
     }
+
+    tasks.withType(Test) {
+        reports.html.destination = file("${reporting.baseDir}/${name}")
+        useJUnitPlatform()
