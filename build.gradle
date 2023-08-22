@@ -77,3 +77,4 @@ allprojects {
 
         configurations.all {
             resolutionStrategy {
+    force(group: "org.jetbrains.kotlin", name: "kotlin-reflect", version: kotlinVersion)
