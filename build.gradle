@@ -87,3 +87,7 @@ force(group: "org.jetbrains.kotlin", name: "kotlin-stdlib-jdk8", version: kotlin
  force(group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: jacksonVersion)
  force(group: 'org.slf4j', name: 'slf4j-api', version: slf4jVersion)
             }
+   }
+    }
+
+    if (project.name != 'integration-tests' && project.name != 'web3j') {
