@@ -91,3 +91,5 @@ force(group: "org.jetbrains.kotlin", name: "kotlin-stdlib-jdk8", version: kotlin
     }
 
     if (project.name != 'integration-tests' && project.name != 'web3j') {
+ apply from: "$rootDir/gradle/publish/build.gradle"
+    }
