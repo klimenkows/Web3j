@@ -95,3 +95,7 @@ force(group: "org.jetbrains.kotlin", name: "kotlin-stdlib-jdk8", version: kotlin
     }
 }
 configure(subprojects.findAll { it.name != 'integration-tests' }) {
+ apply from: "$rootDir/gradle/jacoco/build.gradle"
+}
+
+tasks.named("spotlessJava").configure { dependsOn("spotlessGroovyGradle") }
