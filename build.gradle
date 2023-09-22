@@ -24,4 +24,4 @@ ext {
  slf4jVersion = '1.7.30'
     javaWebSocketVersion = '1.5.3'
  picocliVersion = '3.0.0'
-    ensAdraffyVersion = '0.1.1'
+    ensAdraffyVersion = '0.1.1
