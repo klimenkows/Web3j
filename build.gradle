@@ -29,3 +29,4 @@ ext {
     equalsverifierVersion = '3.14.1'
 junitVersion = '5.5.2'
     web3jUnitVersion = '4.10.0'
+  junitBenchmarkVersion = '0.7.2'
