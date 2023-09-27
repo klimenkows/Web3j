@@ -30,3 +30,5 @@ ext {
 junitVersion = '5.5.2'
     web3jUnitVersion = '4.10.0'
   junitBenchmarkVersion = '0.7.2'
+ logbackVersion = '1.2.3'
+    mockitoJunitVersion = '3.1.0'
