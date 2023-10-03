@@ -48,3 +48,4 @@ description 'Web3j base project.'
 ].each { buildScript ->
     download {
  src "https://raw.githubusercontent.com/web3j/build-tools/master/gradle/$buildScript/build.gradle"
+  dest "$rootDir/gradle/$buildScript/build.gradle"
