@@ -51,3 +51,8 @@ description 'Web3j base project.'
   dest "$rootDir/gradle/$buildScript/build.gradle"
  overwrite false
         quiet true
+ onlyIfModified true
+    }
+}
+
+allprojects {
