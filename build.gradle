@@ -63,3 +63,9 @@ allprojects {
   'repositories',
             'spotless'
         ].each { buildScript ->
+  from("$rootDir/gradle/$buildScript/build.gradle")
+        }
+    }
+
+    tasks.withType(Test) {
+        reports.html.destination = file("${reporting.baseDir}/${name}")
