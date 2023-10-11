@@ -74,3 +74,8 @@ allprojects {
 
     dependencies {
         testImplementation "org.junit.jupiter:junit-jupiter:$junitVersion"
+testImplementation "org.mockito:mockito-junit-jupiter:$mockitoJunitVersion"
+
+        configurations.all {
+            resolutionStrategy {
+                force(group: "org.jetbrains.kotlin", name: "kotlin-reflect", version: kotlinVersion)
