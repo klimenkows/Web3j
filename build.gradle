@@ -79,3 +79,4 @@ testImplementation "org.mockito:mockito-junit-jupiter:$mockitoJunitVersion"
         configurations.all {
             resolutionStrategy {
                 force(group: "org.jetbrains.kotlin", name: "kotlin-reflect", version: kotlinVersion)
+ force(group: "org.jetbrains.kotlin", name: "kotlin-stdlib", version: kotlinVersion)
