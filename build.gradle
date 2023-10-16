@@ -82,3 +82,4 @@ testImplementation "org.mockito:mockito-junit-jupiter:$mockitoJunitVersion"
  force(group: "org.jetbrains.kotlin", name: "kotlin-stdlib", version: kotlinVersion)
 force(group: "org.jetbrains.kotlin", name: "kotlin-stdlib-common", version: kotlinVersion)
  force(group: "org.jetbrains.kotlin", name: "kotlin-stdlib-jdk7", version: kotlinVersion)
+   force(group: "org.jetbrains.kotlin", name: "kotlin-stdlib-jdk8", version: kotlinVersion)
