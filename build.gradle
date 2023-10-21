@@ -92,3 +92,7 @@ force(group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: ja
     }
 
     if (project.name != 'integration-tests' && project.name != 'web3j') {
+ apply from: "$rootDir/gradle/publish/build.gradle"
+    }
+}
+configure(subprojects.findAll { it.name != 'integration-tests' }) {
