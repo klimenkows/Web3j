@@ -98,3 +98,7 @@ force(group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: ja
 configure(subprojects.findAll { it.name != 'integration-tests' }) {
   apply from: "$rootDir/gradle/jacoco/build.gradle"
 }
+}
+
+
+tasks.named("spotlessJava").configure { dependsOn("spotlessGroovyGradle") }
