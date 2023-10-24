@@ -102,3 +102,4 @@ configure(subprojects.findAll { it.name != 'integration-tests' }) {
 
 
 tasks.named("spotlessJava").configure { dependsOn("spotlessGroovyGradle") }
+tasks.named("spotlessKotlin").configure { dependsOn("spotlessJava", "spotlessGroovyGradle") }
