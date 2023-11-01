@@ -16,3 +16,4 @@ ext {
 jacksonVersion = '2.14.2'
  javaPoetVersion = '1.7.0'
     kotlinVersion = '1.3.72'
+ kotlinPoetVersion = '1.5.0'
