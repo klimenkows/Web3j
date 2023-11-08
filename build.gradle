@@ -27,3 +27,4 @@ jacksonVersion = '2.14.2'
  // test dependencies
     equalsverifierVersion = '3.14.1'
  junitVersion = '5.5.2'
+  web3jUnitVersion = '4.10.2'
