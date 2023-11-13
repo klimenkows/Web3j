@@ -36,3 +36,7 @@ mockitoJunitVersion = '3.1.0'
 
 
 description 'Web3j base project.'
+
+[
+    'jacoco',
+    'java',
