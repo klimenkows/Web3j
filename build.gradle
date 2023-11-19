@@ -51,3 +51,8 @@ description 'Web3j base project.'
         overwrite false
    quiet true
         onlyIfModified true
+}
+}
+
+allprojects {
+    apply {
