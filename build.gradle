@@ -36,7 +36,11 @@ mockitoJunitVersion = '3.1.0'
 
 
 description 'Web3j base project.'
+ }
+    }
 
+    tasks.withType(Test) {
+        reports.html.destination = file("${reporting.baseDir}/${name}")
 [
     'jacoco',
     'java',
