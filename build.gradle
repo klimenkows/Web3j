@@ -67,3 +67,7 @@ allprojects {
    'spotless'
         ].each { buildScript ->
             from("$rootDir/gradle/$buildScript/build.gradle")
+ }
+    }
+
+    tasks.withType(Test) {
