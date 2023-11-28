@@ -77,3 +77,7 @@ allprojects {
 
     dependencies {
  testImplementation "org.junit.jupiter:junit-jupiter:$junitVersion"
+  testImplementation "org.mockito:mockito-junit-jupiter:$mockitoJunitVersion"
+
+        configurations.all {
+            resolutionStrategy {
