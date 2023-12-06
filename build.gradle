@@ -88,3 +88,4 @@ allprojects {
   force(group: "org.jetbrains.kotlin", name: "kotlin-stdlib-jdk8", version: kotlinVersion)
   force(group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: jacksonVersion)
   force(group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: jacksonVersion)
+ force(group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: jacksonVersion)
